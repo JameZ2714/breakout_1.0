@@ -1,0 +1,61 @@
+/* 
+          css which initalizes boxes and colors for the areas such as header and animaiton
+          which control the text colors of the header. Also sets style of canvas and buttons.
+*/
+
+header {
+          background-color: black;
+          color: whitesmoke;
+          padding: 5px;
+          margin-bottom: 10px;
+          text-align: center;
+          animation-name: color;
+          animation-duration: 15s;
+          animation-iteration-count: infinite;
+}
+
+@keyframes color {
+          0% {color: whitesmoke;}
+          7.69230769231% {color: red;}
+          15.3846153846% {color: orange}
+          23.0769230769% {color: yellow}
+          30.7692307692% {color: green}
+          38.4615384615% {color: blue}
+          46.1538461538% {color: indigo}
+          53.8461538462% {color: violet}
+          61.5384615385% {color: indigo;}
+          69.2307692308% {color: blue;}
+          76.9230769231% {color: green;}
+          84.6153846154% {color: yellow;}
+          92.3076923077% {color: orange;}
+          100% {color: red;}
+}
+
+@keyframes backcolor {
+          0% {background-color: whitesmoke;}
+          7.69230769231% {background-color: red;}
+          15.3846153846% {background-color: orange}
+          23.0769230769% {background-color: yellow}
+          30.7692307692% {background-color: green}
+          38.4615384615% {background-color: blue}
+          46.1538461538% {background-color: indigo}
+          53.8461538462% {background-color: violet}
+          61.5384615385% {background-color: indigo;}
+          69.2307692308% {background-color: blue;}
+          76.9230769231% {background-color: green;}
+          84.6153846154% {background-color: yellow;}
+          92.3076923077% {background-color: orange;}
+          100% {background-color: red;}
+}
+
+canvas {
+          width: 1490px;
+          border: 2px solid black;
+          background-color: grey;
+}
+button {
+          margin-top: 20px;
+          padding: 10px;
+          font-size: 16px;
+          border-style: dotted;
+}

@@ -14,6 +14,10 @@ header {
           animation-iteration-count: infinite;
 }
 
+/* 
+          @keyframes color is the animation is the animation which changes text color in a rainbow pattern
+*/
+
 @keyframes color {
           0% {color: whitesmoke;}
           7.69230769231% {color: red;}
@@ -30,6 +34,10 @@ header {
           92.3076923077% {color: orange;}
           100% {color: red;}
 }
+
+/* 
+          @keyframes backcolor is the animation which changes something backgorund color in a rainbow pattern
+*/
 
 @keyframes backcolor {
           0% {background-color: whitesmoke;}
@@ -53,6 +61,8 @@ canvas {
           border: 2px solid black;
           background-color: grey;
 }
+
+/* general button format so they all look the same */
 button {
           margin-top: 20px;
           padding: 10px;

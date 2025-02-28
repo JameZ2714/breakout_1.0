@@ -5,10 +5,11 @@
 
 header {
           background-color: black;
-          color: whitesmoke;
+          color: whitesmoke; /* text base color */
           padding: 5px;
           margin-bottom: 10px;
           text-align: center;
+          /* css properties which help the animation happen and loop*/
           animation-name: color;
           animation-duration: 15s;
           animation-iteration-count: infinite;

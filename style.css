@@ -59,6 +59,7 @@ header {
 
 canvas {
           width: 1490px;
+          height: auto;
           border: 2px solid black;
           background-color: grey;
 }
